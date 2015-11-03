@@ -1,5 +1,5 @@
 ---
-title: Introduction to CSSSS
+title: Introduction to CSS
 ---
 
 # What You Need to Know:

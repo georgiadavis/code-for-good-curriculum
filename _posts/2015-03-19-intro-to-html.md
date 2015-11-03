@@ -26,6 +26,7 @@ In talking about the internet, we use a metaphor of clients and servers - it hel
 
 As you can tell, we are talking about how this happens in abstract, high-level terms. You can spend years studying the fine detail of how the internet works. After making sure we have everything set up right, we'll get started with some core internet technologies - HTML and CSS.
 
+## HTML Template
 
 {% highlight html %}
 <!DOCTYPE html>
@@ -39,7 +40,7 @@ As you can tell, we are talking about how this happens in abstract, high-level t
 </html>
 {% endhighlight %}
 
-# Tag syntax
+## Tag syntax
 HTML is made up of building blocks called "elements".
 
 {% highlight html %}
@@ -57,9 +58,8 @@ Attribute: Different elements can have different attributes. All elements can ha
 + ID - identifies a unique element on the page and there can only be one element that has that id.
 + Class- Identifies and group elements that may occur more than once.
 
-##Types of Tags:
-+ Headers  
-Headers tell your visitors what your site is about. Usually, the main title of pages uses the `<h1>` tag.
+## Types of Tags:
++ Headers - Headers tell your visitors what your site is about. Usually, the main title of pages uses the `<h1>` tag.
 
 Netflix might use headers like this:
 
@@ -76,17 +76,18 @@ Netflix might use headers like this:
    <h3>Horror</h3>
    <!-- Horror Movies here! --> 
 </body>
+
 {% endhighlight %}
 
-+ Paragraphs and Emphasis
-	1.	`<p>` tags, delineate paragraph text
-	2.	`<strong>` will make any text contained within bold
-	3.	`<em>` will italicize text or add emphasis
+## Paragraphs and Emphasis
+` <p>` tags, delineate paragraph text
+`<strong>` will make any text contained within bold
+`<em>` will italicize text or add emphasis
 
-+ Lists
-	1.	Bullet point lists start with `<ul>` for unordered list
-	2.	Numbered lists start with `<ol>` for ordered list
-	3.	The actual list items go between `<li>` tags for, you guessed it, list items
+## Lists
+Bullet point lists start with `<ul>` for unordered list
+Numbered lists start with `<ol>` for ordered list
+The actual list items go between `<li>` tags for, you guessed it, list items
 
 {% highlight html %}
 <ul>
@@ -102,16 +103,16 @@ Netflix might use headers like this:
  </ol>
 {% endhighlight %}
 
-+ Links  
+## Links  
 Links use an `<a>` tag, which stands for anchor. If you wanted a link to Google it would look like this:
 `<a href="http://www.google.com">Super secret link</a>`
 
-+ Images  
+## Images  
 Images use an `<img>` tag to embed an image in a webpage.
 `<img src="your_image_location">`
 
 
-# Indentation
+## Indentation
 HTML is not the easiest to read. It's designed to be clear for the browser to understand, but not always for humans. Indentation help make your code easier to understand and debug.
 
 No indentation:
@@ -142,7 +143,7 @@ Indentation:
 
 With better indentation, the missing tag is easy to spot!
 
-# Comments
+## Comments
 
 HTML also has a way to write things that won't show up in the browser at all. That doesn't sound very useful at first, but developers use this invisible text to leave helpful comments in the code.
 
