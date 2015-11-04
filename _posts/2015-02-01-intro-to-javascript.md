@@ -1,11 +1,7 @@
 ---
 title: Introduction to JavaScript and jQuery
 ---
----
-layout: post
-title: jQuery Basics
-language: jquery
----
+
 # Why This is Important:
 The jQuery library makes tons of things we’d want to do on the web with JavaScript a breeze!
 
