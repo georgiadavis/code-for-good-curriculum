@@ -40,15 +40,15 @@
 }
 
 /* Separator after menu */
-
-#nav-list:after {
-  display: block;
-  content: '';
-  width: 5rem;
-  height: 1px;
-  margin: 23px auto;
-  background-color: $background-color;
-}
+//
+// #nav-list:after {
+//   display: block;
+//   content: '';
+//   width: 5rem;
+//   height: 1px;
+//   margin: 23px auto;
+//   background-color: $background-color;
+// }
 
 /* Icon menu */
 
@@ -63,7 +63,7 @@
 #menu {
   height: 4px;
   width: 1.5em;
-  background-color: #fff;
+  background-color: #336FA2;
   margin-top: 8px;
   &:after, &:before {
     content: "";
@@ -71,7 +71,7 @@
     position: relative;
     height: 4px;
     width: 1.5em;
-    background-color: #fff;
+    background-color: #336FA2;
     transition: all 0.3s ease-in;
   }
   &:before {
@@ -134,14 +134,14 @@
   	font-family: 'Signika', sans-serif; //Emerald logo font
     font-weight: 600;
   }
-  &:after {
-  	display: block;
-    content: '';
-    width: 5rem;
-    height: 1px;
-    margin: 23px auto;
-    background-color: lighten($text-color, 70%);
-  }
+  // &:after {
+  // 	display: block;
+  //   content: '';
+  //   width: 5rem;
+  //   height: 1px;
+  //   margin: 23px auto;
+  //   background-color: lighten($text-color, 70%);
+  // }
 }
 
 /* Posts */
@@ -158,15 +158,15 @@
       margin-bottom: 1.3334em;
     }
 }
-
-.post+.post:before {
-    display: block;
-    content: '';
-    width: 5rem;
-    height: 1px;
-    margin: 23px auto;
-    background-color: lighten($text-color, 70%);
-  }
+//
+// .post+.post:before {
+//     display: block;
+//     content: '';
+//     width: 5rem;
+//     height: 1px;
+//     margin: 23px auto;
+//     background-color: lighten($text-color, 70%);
+//   }
 
 .by-line {
   display: block;
@@ -247,4 +247,10 @@ footer {
   color: $background-color;
   text-align: center;
   padding: 0.6667em 0;
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  margin-bottom:0px;
+
 }
